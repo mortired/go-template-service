@@ -24,7 +24,7 @@ Welcome to the Users Service documentation! This project demonstrates modern Go 
 
 2. **Install dependencies**
    ```bash
-   go mod download
+   go mod tidy
    ```
 
 3. **Setup database**
