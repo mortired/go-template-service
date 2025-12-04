@@ -1,10 +1,11 @@
 package bootstrap
 
 import (
-	"users/internal/infrastructure/logging"
 	"users/internal/repository"
 	"users/internal/service"
 	"users/internal/service/user"
+
+	logging "github.com/mortired/appsap-logging"
 )
 
 func ProvideUserService(repo repository.User, logger *logging.Logger) service.User {

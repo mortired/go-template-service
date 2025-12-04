@@ -2,10 +2,11 @@ package user
 
 import (
 	"context"
-	"users/internal/infrastructure/logging"
 	"users/internal/model/user"
 	"users/internal/repository"
 	"users/internal/service"
+
+	logging "github.com/mortired/appsap-logging"
 
 	"go.uber.org/zap"
 )

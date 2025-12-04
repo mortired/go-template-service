@@ -2,9 +2,10 @@ package user
 
 import (
 	"net/http"
-	"users/internal/infrastructure/response"
 	"users/internal/model/user"
 	"users/internal/service"
+
+	response "github.com/mortired/appsap-response"
 
 	"github.com/labstack/echo/v4"
 )

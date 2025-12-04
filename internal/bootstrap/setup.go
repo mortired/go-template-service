@@ -1,9 +1,11 @@
 package bootstrap
 
 import (
-	"users/internal/infrastructure/appcore"
-	"users/internal/infrastructure/logging"
 	"users/internal/router"
+
+	appcore "github.com/mortired/appsap-core"
+
+	logging "github.com/mortired/appsap-logging"
 
 	"github.com/labstack/echo/v4"
 )

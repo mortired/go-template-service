@@ -1,6 +1,6 @@
 package main
 
-import "users/internal/infrastructure/migration/cli"
+import "github.com/mortired/appsap-migration/cli"
 
 func main() {
 	cli.Execute()
