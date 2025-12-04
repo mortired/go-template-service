@@ -4,9 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 	"strings"
-	"users/internal/infrastructure/postgres"
 	"users/internal/model/user"
 	"users/internal/repository"
+
+	postgres "github.com/mortired/appsap-postgres"
 )
 
 type Repository struct {

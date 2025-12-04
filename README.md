@@ -30,7 +30,7 @@ Complete documentation is available in the `docs/` folder:
 ## 🚀 Quick Start
 
 ### Requirements
-- **Go 1.19+**
+- **Go 1.25+**
 - **PostgreSQL 12+**
 
 ### Installation and Setup
